@@ -1,0 +1,202 @@
+:root {
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* --------------------MAIN PAGE--------------------- */
+
+/* ----------------------HEADER--------------------- */
+
+.header {
+}
+.header-navigation {
+}
+.header .logo-second-part {
+  color: #2e2f42;
+}
+.header-list {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.address-list {
+}
+.address-link {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
+.address-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+/* ----------------------HERO--------------------- */
+
+.section-hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.hero-button:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+/* --------------------ADVANTAGES--------------------- */
+
+.section-advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-subtitle {
+}
+.advantages-text {
+}
+
+/* --------------------Examples--------------------- */
+.section-examples {
+}
+.examples-title {
+}
+.examples-list {
+}
+
+/* ----------------------TEAM--------------------- */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.team-subtitle {
+  text-align: center;
+}
+.team-text {
+  text-align: center;
+}
+
+/* ----------------------FOOTER--------------------- */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer .logo-second-part {
+  color: #f4f4fd;
+}
+
+/* --------------------PORTFOLIO PAGE--------------------- */
+
+.section-application {
+}
+.application-button-list {
+}
+.application-button {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.application-button:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.application-list {
+}
+.application-link {
+  color: currentColor;
+}
+.application-subtitle {
+}
+.application-text {
+}
